@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+ 
+  <header class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+    <h1 class="text-2xl font-bold">Brand</h1>
+    <nav class="hidden md:flex gap-6">
+      <a href="#features" class="hover:text-blue-600">Features</a>
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#pricing" class="hover:text-blue-600">Pricing</a>
+      <a href="#contact" class="hover:text-blue-600">Contact</a>
+    </nav>
+    <button class="md:hidden">☰</button>
+  </header>
+
+  
+  <section class="px-6 py-16 max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">Your Headline Here</h2>
+      <p class="text-gray-600 mb-6">A compelling subheading that explains your main value proposition.</p>
+      <div class="flex gap-4">
+        <a href="#cta" class="bg-blue-600 text-white px-6 py-3 rounded-lg">Get Started</a>
+        <a href="#features" class="border px-6 py-3 rounded-lg text-gray-800">Learn More</a>
+      </div>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/500" alt="Hero image" class="w-full rounded-lg">
+    </div>
+  </section>
+
+  
+  <section id="features" class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-8">Features</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold text-lg mb-2">Feature 1</h4>
+          <p class="text-gray-600">Description of feature one.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold text-lg mb-2">Feature 2</h4>
+          <p class="text-gray-600">Description of feature two.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold text-lg mb-2">Feature 3</h4>
+          <p class="text-gray-600">Description of feature three.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="cta" class="py-16 text-center bg-blue-600 text-white">
+    <h3 class="text-3xl font-bold mb-4">Ready to take off?</h3>
+    <p class="mb-6">Join us today and boost your workflow.</p>
+    <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold">Start Now</a>
+  </section>
+
+  
+  <footer class="py-6 text-center text-gray-600">
+    © 2025 Your Company. All rights reserved.
+  </footer>
+
+</body>
+</html>
