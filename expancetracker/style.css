@@ -1,0 +1,88 @@
+.box{
+text-align: center;
+border-radius: 6px;
+color: #fff;
+}
+
+
+.income { background: #2ecc71; }
+.expense { background: #e74c3c; }
+.balance { background: #3498db; }
+
+
+form {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-bottom: 15px;
+}
+
+
+form input, form select, form button {
+padding: 10px;
+font-size: 14px;
+}
+
+
+form input, form select {
+flex: 1;
+}
+
+
+form button {
+background: #3498db;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+
+.filters {
+margin-bottom: 15px;
+}
+
+
+.filters label {
+margin-right: 10px;
+}
+
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+
+li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+margin-bottom: 8px;
+border-left: 5px solid;
+background: #f9f9f9;
+border-radius: 4px;
+}
+
+
+li.income-item { border-color: #2ecc71; }
+li.expense-item { border-color: #e74c3c; }
+
+
+.actions button {
+margin-left: 5px;
+border: none;
+padding: 5px 8px;
+cursor: pointer;
+border-radius: 4px;
+}
+
+
+.edit { background: #f1c40f; }
+.delete { background: #e74c3c; color: #fff; }
+
+
+@media (max-width: 600px) {
+.summary { flex-direction: column; }
+}
